@@ -3315,10 +3315,6 @@ func init() {
       "description": "Addressing information",
       "type": "object",
       "properties": {
-        "address-type": {
-          "description": "Node address type, one of HostName, ExternalIP or InternalIP",
-          "type": "string"
-        },
         "alloc-range": {
           "description": "Address pool to be used for local endpoints",
           "type": "string"
@@ -8024,10 +8020,6 @@ func init() {
       "description": "Addressing information",
       "type": "object",
       "properties": {
-        "address-type": {
-          "description": "Node address type, one of HostName, ExternalIP or InternalIP",
-          "type": "string"
-        },
         "alloc-range": {
           "description": "Address pool to be used for local endpoints",
           "type": "string"

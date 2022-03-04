@@ -2327,9 +2327,6 @@ definitions:
       alloc-range:
         description: Address pool to be used for local endpoints
         type: string
-      address-type:
-        description: Node address type, one of HostName, ExternalIP or InternalIP
-        type: string
   Policy:
     description: Policy definition
     type: object
